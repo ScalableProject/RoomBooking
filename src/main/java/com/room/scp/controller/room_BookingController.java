@@ -63,7 +63,7 @@ public class room_BookingController {
 			
 		}
 		
-		// Update record
+		// Update the records
 		@PutMapping("/{id}")
 		public room_Booking updateBooking(@RequestBody room_Booking obj_booking, @PathVariable("id") long ln_bookingId)
 		{
