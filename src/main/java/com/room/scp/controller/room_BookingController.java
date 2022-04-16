@@ -41,7 +41,7 @@ public class room_BookingController {
 	@Autowired
 	private room_BookingRepository room_bookingRepository;
 	
-	//Show all records
+	//To display all records
 		@GetMapping("/all")
 		public List <room_Booking> getAllBookings(){
 			
